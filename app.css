@@ -1,0 +1,75 @@
+html,
+body,h1 {
+margin: 0;
+padding: 0;
+}
+
+h1{
+padding-top: 6px;
+color: aliceblue;
+text-align: center;
+}
+.fa {
+font-size: 22px;
+}
+.game{
+width:100%;
+height:100% ;
+background-image: url("back.webp");
+overflow:hidden;
+
+}
+
+.GameInfo {
+margin: 0px;
+display: flex;
+justify-content: space-around;
+color:white;
+width: 500px;
+align-items: center;
+margin: auto;
+}
+.gridContainer {
+display: grid;
+width: 600px;
+height: auto;
+grid-template-columns: 150px 150px 150px 150px;
+background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+border-radius: 10px;
+margin: 30px auto 0;
+box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+padding: 10px 0;
+}
+
+.grid-item {
+display: block;
+transform: rotateY(150deg);
+margin: 12px auto;
+width: 110px;
+height: 90px;
+border-radius: 8px;
+background-color: black;
+cursor: pointer;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+button.grid-item{
+    outline: none;
+}
+
+.show {
+background-color: #E8EF8F;
+cursor: default
+}
+
+
+.match {
+background-color: rgb(139, 215, 238) !important;
+}
+
+.stars{
+display: flex;
+list-style: none;
+}
