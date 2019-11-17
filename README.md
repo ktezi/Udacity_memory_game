@@ -1,1 +1,1 @@
-# Udacity_master_game
+# Udacity Memory Game
